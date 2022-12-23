@@ -14,4 +14,4 @@ An entries csv is used as a simple internal database to all entries.
 
 ## Entry Image
 
-Entry images should be placed in the `www/images/` folder; imgsrc should follow the structure `images/imagename.png`.
+Entry images should be placed in the `research-subsite/www/images/` folder; imgsrc should follow the structure `images/imagename.png` (www is a special directory for R Shiny apps. it should not be specified in imagesrc).
