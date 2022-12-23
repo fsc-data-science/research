@@ -1,6 +1,6 @@
 # Research Subsite
 
-This repo generates an R Shiny application with searchable `entries`. Each entry is a link to an tool (i.e., another app) or piece of research. Available at: [Flipside Crypto Research](https://science.flipsidecrypto.xyz/research)
+This repo generates an R Shiny application with searchable `entries`. Each entry is a link to a tool (i.e., another app) or piece of research. Available at: [Flipside Crypto Research](https://science.flipsidecrypto.xyz/research)
 
 # Adding Entries
 
@@ -14,4 +14,4 @@ An entries csv is used as a simple internal database to all entries.
 
 ## Entry Image
 
-Entry images should be placed in the `www/images/` folder; imgsrc should follow the structure `images/imagename.png`.
+Entry images should be placed in the `research-subsite/www/images/` folder; imgsrc should follow the structure `images/imagename.png` (www is a special directory for R Shiny apps. it should not be specified in imagesrc).
