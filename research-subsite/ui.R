@@ -24,9 +24,9 @@ withTags({
   )
 }),
 hr(),
-h2("Flipside Data Science // Research"), br(),
+h2("Tools & Research by Flipside DS x Community"), br(),
 div(class = "search-bar",
-   textInput("search_text", label = "Search", value = "", placeholder = "governance research uni dex")
+   textInput("search_text", label = "Search", value = "", placeholder = "app l2 research dex calculator bridge")
     ),
 div(class = "entry-layout",
    uiOutput("select_entries")

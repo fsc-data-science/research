@@ -4,26 +4,27 @@ entries <- read.csv(file = "entries.csv", row.names = NULL)
 
 # Generate Card ----
 generate_card <- function(title, url, description, imgsrc){
-  
   return(
     tagList(
-        fluidRow(
-          div(class = "bountylinkc",
-              column(9, class = "bountytitle", 
-                     a(href = url,
-                       title,
-                       target = "_blank"),
-                     div(class = "description", 
-                         description)),
-              column(3, class = "bountyicon", 
-                     a(href = url,
-                       img(class = "roundie", src = imgsrc, width = "75px"),
-                       target = "_blank"))
-              
+      div(class = "entry",
+          fluidRow(
+            column(9, 
+                   a(href = url,
+                     title, 
+                     p(class = 'description',
+                       description)
+                   ) 
+            ),
+            column(3, 
+                   a(href = url,
+                     img(class = "roundie", src = imgsrc, width = "75px")
+                   )
+            )
+            
           )
-        )
       )
     )
+  )
 }
 
 # Print HTML for Cards ----

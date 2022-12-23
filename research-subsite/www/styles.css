@@ -1,5 +1,4 @@
 body {
-  background: url('background.png');
   background-color: #10151A;
   background-attachment:fixed;
   background-size: 100% auto;
@@ -28,6 +27,31 @@ hr {
   border: 1px solid #C4CDD5;
 }
 
+.entry {
+  margin: 1%;
+  height: 100%;
+  break-inside: avoid;
+  min-height: 120px;
+  background-color: #10151A;
+  border-radius: 4px;
+   padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.roundie {
+  border-radius: 6px;
+  border: solid #777 1px;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 0.8em;
+  color: #999;
+}
+
+
 .entry-layout {
   column-count: 2;
 }
@@ -36,98 +60,26 @@ hr {
   max-width: 900px;
   margin: 0 auto;
   height: 100%;
-  padding-top: 52px;
+  padding-top: 50px;
 }
-
-.work {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 80%;
-  text-align: center;
-  margin: auto;
-  color: white;
-  background: linear-gradient(272.44deg, rgba(102, 203, 228, 0.6) -16.83%, rgba(179, 79, 158, 0.6) 100%);
-  mix-blend-mode: normal;
-  border: 1px solid white;
-  border-radius: 80px; 
-}
-
-.hang {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 80%;
-  text-align: center;
-  margin: auto;
-  color: white;
-background: linear-gradient(272.44deg, rgba(102, 203, 228, 0.6) -16.83%, rgba(179, 79, 158, 0.6) 100%);
-  mix-blend-mode: normal;
-  border: 1px solid white;
-  border-radius: 80px; 
-}
-
-.col-sm-6 {
-  padding: 0;
-}
-
 
 .title {
   color: #7F8CED;  
   font-size: 2em;
   font-weight: 700;
 }
-#last_update {
-  font-family: Roboto Mono;
-  font-size: 0.8em;
-  font-style: italic;
-}
+
 .heading {
   font-weight: 600;
   font-size: 1.05em;
   color: #FFFFFF;
 }
-#spaceme {
-  padding-bottom: 3%;
-}
+
 .heading2 {
   padding-top: 10px;
   font-weight: 600;
   font-size: 1.05em;
   color: #FFFFFF;
-}
-
-.about {
-  font-size: 0.98em;
-}
-.output {
-  font-weight: 300;
-}
-
-.purplesubtitle {
-  color: #7F8CED;  
-  font-size: 1.25em;
-  font-weight: 500;
-  padding-top: 5%;
-}
-
-.purples {
-  color: #7F8CED;  
-  font-weight: 400;
-}
-
-.plotly {
-  font-family: Roboto Mono !important;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #919EAB !important;
 }
 
 .form-control {
@@ -138,52 +90,8 @@ background: linear-gradient(272.44deg, rgba(102, 203, 228, 0.6) -16.83%, rgba(17
   color: #FFFFFF;
 }
 
-.toppart {
-  background-color: #10151A;
-  border: 1px solid #7F8CED;
-  border-radius: 16px;
-  font-size: 18px;
-  padding: 4%;
-  outline:none;
-  border-color:#7F8CED;
-  box-shadow:0 0 10px #7F8CED;
-}
 
-.roundie {
-  border-radius: 6px;
-  border: solid #777 1px;
-  margin-top: 10px;
-}
-
-.aligns {
-  text-align: right;
-}
-
-#connect {
-  color: #7F8CED;
-  font-family: Roboto Mono;
-  margin-left: 10px;
-}
-
-.bountytitle {
-  padding-top: 5px;
-}
-.bountylinkc {
-  min-height: 120px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px;
-  background-color: #10151A;
-  border-radius: 4px;
-  
-}
-.description {
-  font-size: 0.8em;
-  color: #999;
-}
-
+/* BELOW IS FIXED BANNER  */
 
 .top-banner {
   background: #10151A;
