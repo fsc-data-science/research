@@ -1,6 +1,6 @@
 # Research Subsite
 
-This repo generates an R Shiny application with searchable `entries`. Each entry is a link to an tool (i.e., another app) or piece of research. Available at: [Flipside Crypto Research](https://science.flipsidecrypto.xyz/research)
+This repo generates an R Shiny application with searchable `entries`. Each entry is a link to a tool (i.e., another app) or piece of research. Available at: [Flipside Crypto Research](https://science.flipsidecrypto.xyz/research)
 
 # Adding Entries
 
