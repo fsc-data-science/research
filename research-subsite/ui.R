@@ -29,7 +29,7 @@ div(class = "button-search",
     fluidRow(
       column(6, 
              div(class = "button-area",
-             actionButton(class = 'btn', "code", "Incl. Code", width = "120px"),
+             actionButton(class = 'btn', "code", "Open Source", width = "120px"),
              actionButton(class = 'btn', "community", "Community", width = "120px"),
              actionButton(class = 'btn', "flipside", "Flipside", width = "120px"),         
              )),

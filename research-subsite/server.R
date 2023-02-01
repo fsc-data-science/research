@@ -19,7 +19,7 @@ observeEvent(input$code, {
   if(code_filter()){
     updateActionButton(session, inputId = "code", label = "Code Filter")
   } else {
-    updateActionButton(session, inputId = "code", label = "Incl. Code")
+    updateActionButton(session, inputId = "code", label = "Open Source")
   }
   
 })
