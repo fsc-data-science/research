@@ -19,3 +19,4 @@
 "Flipside","yes","UST","https://science.flipsidecrypto.xyz/ust","[Deprecated] Get the full view of UST on Terra","images/ust.png","terra, ust, app, network"
 "Flipside","no","TerraScored","https://science.flipsidecrypto.xyz/terrascored","[Deprecated] This app was designed to help protocols determine token distribution on Terra","images/terrascored.png","terra, ust, app, user, metrics, activity"
 "Community","yes","OpenBB Terminal","https://openbb.co/","OpenBB Terminal is a modern investment research platform for everyone. Free, open source, and built in Python. The desktop application that allows you to make better investment decisions.","images/openbb.png","community, python, research, finance, investment, app, "
+"Community","no","Flowverse NFT Stats","https://nft.flowverse.co/stats","Track statistics for the most popular NFTs on Flow across Music, Fashion, Art and other categories.","images/flowverse.png","nft, app, statistics, finance, investment, community"
