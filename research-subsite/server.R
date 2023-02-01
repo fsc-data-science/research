@@ -1,6 +1,6 @@
 source("global.R")
 library(shiny)
-library(dplyr)
+
 
 # Define server logic 
 shinyServer(function(input, output, session) {
@@ -74,7 +74,7 @@ button_entries <- eventReactive(list(search_terms(), input$code, input$community
   final_filter <- select_entries()
   
   if(code_filter()){
-    final_filter <- final_filter %>% dplyr::filter(code == "yes")
+    final_filter <- final_filter[final_filter$code == "yes", ]
   }
   
   # if both on, ignore both.
@@ -82,11 +82,11 @@ button_entries <- eventReactive(list(search_terms(), input$code, input$community
     final_filter
   } else { 
     if(community_filter()){
-      final_filter <- final_filter %>% dplyr::filter(source == "Community")
+      final_filter <- final_filter[final_filter$source == "Community", ]
       final_filter
     }
     if(flipside_filter()){
-      final_filter <- final_filter %>% dplyr::filter(source == "Flipside")
+      final_filter <- final_filter[final_filter$source == "Flipside", ]
       final_filter
     }
     final_filter
