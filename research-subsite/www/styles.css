@@ -12,6 +12,32 @@ body {
   font-weight: 400;
 }
 
+.break-line {
+  height: 1px;
+  background-color: #FF5517;
+  border-color: #FF5517;
+}
+
+.btn {
+  background-color: #FF5517;
+  color: white;
+}
+
+.button-area {
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-search {
+  display: grid;
+  
+}
+
+.search-bar {
+  justify-self: right;
+}
+
 a {
   color: #C4CDD5;
 }
@@ -57,6 +83,7 @@ hr {
 }
 
 .container-fluid {
+  display: grid;
   max-width: 900px;
   margin: 0 auto;
   height: 100%;

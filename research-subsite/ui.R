@@ -23,11 +23,21 @@ withTags({
          )
   )
 }),
-hr(),
-h2("Tools & Research by Flipside DS x Community"), br(),
-div(class = "search-bar",
-   textInput("search_text", label = "Search", value = "", placeholder = "app l2 research dex calculator bridge")
-    ),
+hr(class = "break-line"),
+h2("Apps, Dashboards, Research, & Open Source Tools"), 
+div(class = "button-search",
+    fluidRow(
+      column(6, 
+             div(class = "button-area",
+             actionButton(class = 'btn', "code", "Incl. Code", width = "120px"),
+             actionButton(class = 'btn', "community", "Community", width = "120px"),
+             actionButton(class = 'btn', "flipside", "Flipside", width = "120px"),         
+             )),
+      column(6,
+             div(class = "search-bar",
+                 textInput("search_text", label = "Search", value = "", placeholder = "app l2 research dex calculator bridge")
+             ))
+    )),
 div(class = "entry-layout",
    uiOutput("select_entries")
     )
