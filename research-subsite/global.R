@@ -1,3 +1,4 @@
+library(dplyr)
 
 # Load Entries ---- 
 entries <- read.csv(file = "entries.csv", row.names = NULL)
