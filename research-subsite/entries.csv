@@ -24,3 +24,4 @@
 transaction explorer by @a_idria.","images/aave_explorer.png","community, app, aave, defi, ethereum "
 "Flipside","no","EVM FlippyByte","https://science.flipsidecrypto.xyz/evmsig/","Look up and search for byte and hex versions of EVM function and event names. Search in English or byte/hex.","images/evmsig.png","app, ethereum, research, analysis"
 "Flipside","no","Label Adder","https://science.flipsidecrypto.xyz/add-a-label/","App for user label uploads into core label tables.","images/labels.png","app, crosschain, user, label"
+"Community","no","","","","images/.png",""
