@@ -9,6 +9,8 @@
 "Flipside","no","Thorchain Console","https://science.flipsidecrypto.xyz/thorchain-console","What's happening on Thorchain today? Here's your best source to find out","images/thorchain_console.png","thorchain, app, activity, bridge, console"
 "Flipside","no","Algorand Console","https://science.flipsidecrypto.xyz/algorand-console","The 5 W's of journalism, but for Algorand!","images/algorand.png","algorand, algo, app, activity, console"
 "Flipside","yes","Optimist Score by Flipside","https://science.flipsidecrypto.xyz/optimist/","Flipside will attest to your Optimism on-chain actions: Ready?","images/optimist.png","optimism, l2, layer 2, ethereum, user, metrics, app, activity "
+"Flipside","no","EVM FlippyByte","https://science.flipsidecrypto.xyz/evmsig/","Look up and search for byte and hex versions of EVM function and event names. Search in English or byte/hex.","images/evmsig.png","app, ethereum, research, analysis"
+"Flipside","no","Label Adder","https://science.flipsidecrypto.xyz/add-a-label/","App for user label uploads into core label tables.","images/labels.png","app, crosschain, user, label"
 "Flipside","no","NFT Deal Score","https://science.flipsidecrypto.xyz/nft-deal-score","How much should an NFT cost? Find out here","images/nft_dealscore.png","nft, app, solana, calculator"
 "Flipside","yes","Uni ETHUSDC Retroactive","https://science.flipsidecrypto.xyz/ethusdc_results/","A deep dive into the performance of ETH-USDC 0.05% Pool liquidity providers.","images/uniswap_logo.png","research, ethereum, uniswap, dex, v3, amm, retroactive, analysis"
 "Flipside","yes","Uni ETHBTC Retroactive","https://science.flipsidecrypto.xyz/ethbtc_results/","A deep dive into the performance of ETH-WBTC 0.3% Pool liquidity providers.","images/uniswap_logo.png","research, ethereum, uniswap, dex, v3, amm, retroactive, analysis"
@@ -22,6 +24,3 @@
 "Community","no","Flowverse NFT Stats","https://nft.flowverse.co/stats","Track statistics for the most popular NFTs on Flow across Music, Fashion, Art and other categories.","images/flowverse.png","nft, app, statistics, finance, investment, community"
 "Community","no","AAVE Explorer","https://aave-explorer.vercel.app/","AAVE stats and
 transaction explorer by @a_idria.","images/aave_explorer.png","community, app, aave, defi, ethereum "
-"Flipside","no","EVM FlippyByte","https://science.flipsidecrypto.xyz/evmsig/","Look up and search for byte and hex versions of EVM function and event names. Search in English or byte/hex.","images/evmsig.png","app, ethereum, research, analysis"
-"Flipside","no","Label Adder","https://science.flipsidecrypto.xyz/add-a-label/","App for user label uploads into core label tables.","images/labels.png","app, crosschain, user, label"
-"Community","no","","","","images/.png",""
